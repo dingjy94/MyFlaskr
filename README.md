@@ -1,4 +1,5 @@
 ## MyFlaskr
+[![Build Status](https://travis-ci.com/dingjy94/MyFlaskr.svg?branch=master)](https://travis-ci.com/dingjy94/MyFlaskr)
 
 The flask blog application from [flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/)
 
