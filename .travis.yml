@@ -7,7 +7,7 @@ python: 3.7
 # It is important to avoid things like coverage, pep8 that are not required to run the app
 install:
   - pip install -r requirements.txt
-  - pip install coverage
+  - pip install -q -e .
 
 
 # command to run tests
