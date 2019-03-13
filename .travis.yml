@@ -1,7 +1,6 @@
+dist: xenial
 language: python
-
-python:
-  - 3.7
+python: 3.7
 
 # command to install dependencies in the requirements file
 # You can also install the coverage here to avoid it being in the requirements file
