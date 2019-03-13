@@ -30,4 +30,19 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World'
 
+    # init database file
+    from . import db
+    db.init_app(app)
+
+    # register blueprint
+    from . import auth
+    app.register_blueprint(auth.bp)
+
+    # register blog
+    from . import blog
+    app.register_blueprint(blog.bp)
+    app.add_url_rule('/', endpoint='index')
+
     return app
+
+
